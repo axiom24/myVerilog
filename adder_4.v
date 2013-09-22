@@ -1,4 +1,4 @@
-module add2 (
+module adder_4 (
          input a,
          input b,
          input cin,
