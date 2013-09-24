@@ -1,4 +1,4 @@
-module add1(input x,input y,output a);
+module adder_1-bit(input x,input y,output a);
   xor#(10) a1(a,x,y);
   and#(7) a2(b,x,y);
   
