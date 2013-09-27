@@ -7,8 +7,8 @@ endmodule
 module test();
   reg x,y;
   wire a,b;
-  add1 a1(x,y,a);
-  add1 a2(x,y,b);
+  adder_1-bit a1(x,y,a);
+  adder_1-bit a2(x,y,b);
   initial
   begin
     x=1;
